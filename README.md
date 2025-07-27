@@ -4,6 +4,11 @@ This project presents a comprehensive analysis of global video game sales across
 
 ---
 
+## Project Stage
+This is an earlier project that represents my initial steps in exploratory data analysis (EDA). More advanced analytical and business-oriented projects can be found in my latest repositories.
+
+---
+
 ## Overview
 
 The project includes:
