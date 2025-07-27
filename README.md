@@ -1,48 +1,84 @@
-# Gamedev
-Game dev analysis
+# Gamedev Sales Analysis
+
+This project presents a comprehensive analysis of global video game sales across platforms, genres, publishers, and regions for the year 2021. The goal is to uncover key patterns in consumer behavior and business performance in the gaming industry using real sales data.
+
+---
 
 ## Overview
-This project provides an analysis of the game development industry's sales trends using data from various regions, platforms, and genres. The insights are visualized using plots and a heatmap to highlight dependencies and key factors driving sales.
 
-1. **Data Cleaning and Preparation**:
-   - Handling missing values and cleaning the dataset.
-   - Transforming data for better analysis.
+The project includes:
 
-2. **Popular Genres**:
-   - Analysis of the most popular game genres based on sales data.
+1. **Data Cleaning and Preprocessing**  
+   - Removal of low-relevance platforms and genres (e.g., Visual Novel).  
+   - Fixing missing values and correcting key data points.  
+   - Extraction of release year and restructuring of columns.
 
-3. **Platform Insights**:
-   - Visualizations of the most popular gaming platforms by sales.
+2. **Genre Popularity**  
+   - Identifying top-selling genres worldwide.  
+   - Regional differences in genre preferences.
 
-4. **Regional Trends**:
-   - Identification of regions with the highest game sales.
-   - Regional preferences for genres.
+3. **Platform Sales Analysis**  
+   - Discovering the most profitable gaming platforms by total units sold.
 
-5. **Correlation Heatmap**:
-   - A heatmap visualizing dependencies and correlations between sales in different regions and crititc score.
+4. **Regional Trends**  
+   - Comparative analysis of game sales in North America, Europe + Africa + Oceania, Japan, and other regions.  
+   - Regional genre preferences visualized through bar charts.
 
+5. **Publisher Performance**  
+   - Top 5 publishers by total sales.  
+   - Deep dive into genre portfolios of leading publishers such as EA, Rockstar, and Activision.
+
+6. **Correlation Analysis**  
+   - Heatmap showing relationships between critic scores and sales in different regions.  
+   - Evaluating if critic scores significantly impact performance.
+
+---
 
 ## Visualizations
-### Most Popular Genres
-A pie chart showing the top-selling genres globally.
 
-### Most Popular Platforms
-Bar chart visualizing platform preferences and sales distribution.
+- **Pie Charts**:  
+  - Global sales distribution by genre.  
+  - Top 5 publishers' contribution to global sales.  
+  - Genre breakdowns for each of the top 5 publishers.
 
-### Regional Trends
-Bar charts showing sales data for North America, Europe+Africa+Oceania, Japan, and other regions.
+- **Bar Charts**:  
+  - Sales by platform.  
+  - Regional genre preferences.  
+  - Total sales by region.
 
-### Correlation Heatmap
-A heatmap highlighting the relationship between sales in different regions and crititc score.
+- **Heatmap**:  
+  - Correlation matrix between total sales, regional sales, and critic scores.
 
-## Technologies Used
-- **Python** for data analysis and visualization.
-- **Jupyter Notebook** for organizing and documenting the analysis.
+---
+
+## 🛠️ Technologies Used
+
+- **Language**: Python   
 - **Libraries**:
-  - `pandas` for data manipulation.
-  - `matplotlib` and `seaborn` for visualizations.
- 
-  ## Data Used
-  For this project was used dataset of videogames sales - https://www.kaggle.com/datasets/asaniczka/video-game-sales-2024/data
+  - `pandas` – data manipulation  
+  - `numpy` – numerical operations  
+  - `matplotlib` & `seaborn` – data visualization  
 
-  
+---
+
+## Dataset
+
+- **Source**: [Kaggle - Video Game Sales 2024 Dataset](https://www.kaggle.com/datasets/asaniczka/video-game-sales-2024/data)  
+- Contains information on game title, genre, platform, publisher, critic score, release date, and sales by region.
+
+---
+
+## Conclusions
+
+- **Top Genres**: Shooter, Action, and Sports lead global sales. Japan favors Role-Playing games.
+- **Best-Selling Platforms**: PS3 and Xbox 360 dominate; PS4 is the only newer-gen console with high sales. Xbox One lags.
+- **Leading Publishers**: EA, Activision, Ubisoft, Rockstar, and EA Sports are the most profitable. Their main focus is on Action and Shooter games.
+- **Critic Scores**: No strong correlation with sales — hits don’t always need top critic ratings.
+- **Regions**: North America is the most profitable market; Japan ranks lowest in overall sales.
+
+---
+
+## Author
+
+Project by **[loktionov-data](https://github.com/loktionov-data)**  
+Feel free to clone, explore, and reach out for collaboration!
