@@ -51,7 +51,7 @@ The project includes:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: Python   
 - **Libraries**:
